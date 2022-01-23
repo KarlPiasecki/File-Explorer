@@ -35,9 +35,9 @@ void createDirectory(){
     string thirdDirectory = "ThirdDirectory";
 
     fs::create_directories(directory + anotherDirectory + thirdDirectory);
-    ofstream txtFile(directory + "txtFile");
+    ofstream txtFile(directory + "txtFile.txt");
     txtFile << "line\n line\n line\n line";
-    ofstream txtFile2(directory + anotherDirectory + "txtFile2");
+    ofstream txtFile2(directory + anotherDirectory + "txtFile2.txt");
     txtFile2 << "line 1 \n line 2 \n line 3";
 }
 
