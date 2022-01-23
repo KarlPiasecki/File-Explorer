@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "filesystem": "cpp",
+        "iosfwd": "cpp",
+        "string": "cpp",
+        "chrono": "cpp",
+        "xstring": "cpp",
+        "iostream": "cpp"
+    },
+    "cmake.sourceDirectory": "${workspaceFolder}/git/contrib/buildsystems"
+}
